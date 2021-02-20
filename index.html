@@ -15,7 +15,7 @@
 		<script>
 			async function getDate() {
 				try {
-					let apiResponse = await fetch('https://visshnnu-student-mentor.herokuapp.coms/students');
+					let apiResponse = await fetch('https://visshnnu-student-mentor.herokuapp.com/students');
 					let apiData = await apiResponse.json();
 
 					apiData.forEach((student) => {
